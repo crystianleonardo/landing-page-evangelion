@@ -1,9 +1,12 @@
-/*import reactLogo from './assets/react.svg' import viteLogo from './assets/vite.svg' import heroImg from './assets/hero.png' */
-import { useState } from 'react'
+import { StrictMode } from 'react'
+import { Rotas } from './rotas/Rotas'
+
 
 function App() {
 
   return (
-    <div></div>
+    <Rotas />
   )
 }
+
+export default App
