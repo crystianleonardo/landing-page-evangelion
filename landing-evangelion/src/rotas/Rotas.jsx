@@ -1,7 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { Login } from '../paginas/Login'
-import { LandingPage } from '../paginas/Landingpage.jsx'
-import { App } from '../App.jsx'
+import { LandingPage } from '../paginas/Landingpage'
 
 export function Rotas() {
     return(
