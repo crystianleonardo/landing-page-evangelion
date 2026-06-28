@@ -1,0 +1,111 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--cor-primaria-escura);
+    height: 100vh;
+    align-items: center;
+}
+
+.titulo {
+    font-family: var(--fonte-principal);
+    font-size: 50px;
+    font-weight: 50;
+    color: var(--cor-primaria-clara);
+    margin-bottom: 20px;
+    transform: scaleY(1.2);
+    z-index: 1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--cor-primaria-clara);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-terciaria-escura);
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.campo {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.campoSelect {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-terciaria-escura);
+    border: 2px solid var(--cor-primaria-clara);
+    color: var(--cor-primaria-clara);
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    transition: all .2s linear;
+}
+
+.botao:hover {
+    transform: translateY(-2px);
+    background-color: rgba(71, 18, 18, 0.85);
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 14px;
+    color: var(--cor-primaria-clara);
+    border: 1px solid var(--cor-primaria-clara);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: center;
+    transition: all .5s linear;
+}
+
+.link:hover {
+    background-color: var(--cor-secundaria-base);
+}
+
+.icone {
+    margin-right: 10px;
+}
+
+.imagem {
+    height: 600px;
+}
+
+.imagemConteiner {
+  position: fixed;
+  left: 0;
+}
+
+.imagemConteiner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(to top, var(--cor-secundaria-escura), transparent 25%),
+    linear-gradient(to bottom, var(--cor-secundaria-escura), transparent 25%),
+    linear-gradient(to left, var(--cor-secundaria-escura), transparent 75%);
+}

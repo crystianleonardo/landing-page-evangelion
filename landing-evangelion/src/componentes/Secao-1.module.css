@@ -1,0 +1,32 @@
+.conteinerPrincipal {
+    display: flex;
+    justify-content: center;
+    gap: 150px;               
+    font-family: var(--fonte-secundaria);
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    color: var(--cor-primaria-clara);
+}
+
+.subconteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform .5s;
+    max-width: 1000px;
+}
+
+.subconteiner:hover {
+    transform: scale(1.10);
+}
+
+.texto {
+    width: auto;
+    height: auto;
+    font-size: 22px;
+    color: var(--cor-secundaria-clara);
+    line-height: 1.5;
+}

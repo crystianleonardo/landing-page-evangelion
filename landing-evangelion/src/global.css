@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria-base: ?;
+    --cor-primaria-clara: white;
+    --cor-primaria-escura: black;
+    --cor-secundaria-base: rgb(95, 95, 95);
+    --cor-secundaria-clara: rgb(220, 220, 220);
+    --cor-secundaria-escura: rgb(145, 145, 145);
+    --cor-terciaria-base: rgb(75, 59, 59);
+    --cor-terciaria-clara: rgba(247, 97, 68, 0.697);
+    --cor-terciaria-escura: rgba(128, 33, 33, 0.85);
+    --fonte-principal: "Montserrat", sans-serif;
+    --fonte-secundaria: "GFS Neohellenic", sans-serif;
+}
+
+html, body, #root {
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+}
